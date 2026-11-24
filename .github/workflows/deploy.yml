@@ -3,6 +3,9 @@ name: Deploy to S3 + CloudFront
 on:
   push:
     branches: ["main"]
+  # 画面から手動でも流せるようにしておく。
+  # コミットが無くても再デプロイできるので、配信だけやり直したいときに使う。
+  workflow_dispatch:
 
 permissions:
   id-token: write
