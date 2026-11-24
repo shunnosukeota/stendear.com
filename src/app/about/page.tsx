@@ -14,7 +14,7 @@ import ContactCta from '@/components/sections/ContactCta'
 export const metadata: Metadata = pageMetadata({
   title: 'About — 太田駿之介のプロフィールと経歴',
   description:
-    '宮城県仙台市のITコンサルタント／エンジニア 太田駿之介のプロフィール。高専（建築）から建設、IT（ECの開発・進行管理）、外資系コンサルティングファームのデータエンジニアへ。ブランド Stendear の由来、経歴、資格、そして少しの遊び心。',
+    '宮城県仙台市のITコンサルタント／エンジニア 太田駿之介のプロフィール。高専（建築）から建設、IT（ECの開発・進行管理）、外資系コンサルティングファームのデータエンジニアを経て、現在はAIスタートアップのPM／PMO。ブランド Stendear の由来、経歴、資格、そして少しの遊び心。',
   path: '/about',
   type: 'article',
 })
@@ -33,7 +33,7 @@ export default function AboutPage() {
             dot="ec"
             label="About"
             title="建築の現場から、ITの現場へ"
-            lead="高専で建築を学んだあと、施工管理として現場に出て、そこから IT に移りました。SIer で EC のプロジェクトリーダーを務め、いまは外資系コンサルティングファームでデータの仕事をしながら、Stendear として受託開発と制作をしています。作って渡すところまでで終わらせたくない、というのが仕事の軸です。"
+            lead="高専で建築を学んだあと、施工管理として現場に出て、そこから IT に移りました。SIer で EC のプロジェクトリーダー、外資系コンサルティングファームでデータ基盤の構築と、領域を変えながらやってきて、いまは AIスタートアップで PM／PMO をしています。並行して Stendear として受託開発と制作も。作って渡すところまでで終わらせたくない、というのが仕事の軸です。"
           />
 
           <div className="grid gap-12 lg:grid-cols-12">

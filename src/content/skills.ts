@@ -42,7 +42,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
   {
     id: 'data',
     title: 'データ基盤',
-    description: 'AWS × Snowflake のデータ基盤を現職で構築・拡張中。AI を使ったメタデータ管理を Zenn で連載しています。',
+    description: 'AWS × Snowflake のデータ基盤を実務で構築・拡張してきました。AI を使ったメタデータ管理は Zenn で連載しています。',
     skills: [
       { name: 'Snowflake（取り込み基盤 / Streamlit / Cortex AI）', level: 2, years: '1年', note: 'SnowPro Core 認定' },
       { name: 'Databricks（Spark / Delta Lake）', level: 1, note: '認定 Data Engineer Associate' },

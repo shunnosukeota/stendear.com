@@ -21,7 +21,7 @@ export const SITE = {
     birthMonth: 10, // 1-12
     birthDay: 24,
     /** 現職（About・経歴で使用） */
-    currentRole: '外資系コンサルティングファームの ITコンサルタント（データエンジニアリング担当）',
+    currentRole: 'AIスタートアップの PM／PMO',
   },
   brand: {
     origin: 'Stand × Endear',

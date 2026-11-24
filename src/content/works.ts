@@ -85,12 +85,12 @@ export const WORKS: Work[] = [
     title: '製造ログを扱うデータ基盤の構築・拡張（AWS × Snowflake）',
     client: 'ゲーム業界 事業会社（NDA）',
     category: 'データ基盤 / Snowflake・AWS',
-    period: '継続中',
-    year: '2025 –',
+    period: '2025.08 – 2026.09',
+    year: '2025 – 2026',
     featured: true,
     nda: true,
     summary:
-      '外資系コンサルティングファームの ITコンサルタントとして参画。AWS S3 に蓄積される製造ログを Snowflake へ連携する基盤の構築・拡張、AI を活用したメタデータ管理、CI/CD による自動化、Streamlit による業務自動化を担当しています。',
+      '外資系コンサルティングファームの ITコンサルタントとして参画。AWS S3 に蓄積される製造ログを Snowflake へ連携する基盤の構築・拡張、AI を活用したメタデータ管理、CI/CD による自動化、Streamlit による業務自動化を担当しました。',
     challenge:
       'データ量・ソースが増え続ける中で、取り込み基盤の拡張と同時に、メタデータ（定義・タグ・リネージ）の整備と運用負荷の低減を進める必要があった。手作業の設定やドキュメント更新がボトルネックになっていた。',
     role: [

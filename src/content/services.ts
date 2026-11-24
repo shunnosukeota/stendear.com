@@ -74,7 +74,7 @@ export const SERVICES: Service[] = [
     nameEn: 'Data Platform',
     title: 'あちこちにあるデータを、一か所に',
     description:
-      'Snowflake や Databricks でデータ基盤をつくり、ETL/ELT を書きます。本業では製造ログを扱う基盤の構築・拡張を担当中で、AI を使ったメタデータ管理や Streamlit での自動化も、実際に手を動かしながら試しています。',
+      'Snowflake や Databricks でデータ基盤をつくり、ETL/ELT を書きます。コンサルティングファームにいた頃は製造ログを扱う基盤の構築・拡張を担当していました。AI を使ったメタデータ管理や Streamlit での自動化も、実際に手を動かして試しています。',
     scope: ['データ基盤の設計', 'ETL / ELT パイプライン開発', 'メタデータ管理・モデリング', '品質監視・運用・CI/CD'],
     tags: ['Snowflake', 'Databricks', 'Python', 'SQL'],
     delivery: '1ヶ月〜',

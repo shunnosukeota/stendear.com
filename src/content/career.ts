@@ -34,12 +34,20 @@ export const CAREER: CareerItem[] = [
     tags: ['SFCC', 'プロジェクトリーダー', '顧客折衝', '決済・CRM連携'],
   },
   {
-    period: '2025.08 –',
+    period: '2025.08 – 2026.09',
     title: '外資系コンサルティングファームでITコンサルタント／データエンジニアに',
     org: '大手コンサルティングファーム（アクセンチュア）',
     description:
-      'データエンジニアリング領域を担当。AWS と Snowflake を活用し、ゲーム業界の製造ログを扱うデータ基盤の構築・拡張に要件定義から実装まで参画。AI を活用したメタデータ管理の提案・実装、CI/CD 化、Streamlit による業務自動化に取り組み、知見を Zenn で連載中。AWS・Databricks・Snowflake の認定資格を取得。',
+      'データエンジニアリング領域を担当。AWS と Snowflake を活用し、ゲーム業界の製造ログを扱うデータ基盤の構築・拡張に要件定義から実装まで参画しました。AI を活用したメタデータ管理の提案・実装、CI/CD 化、Streamlit による業務自動化に取り組み、知見は Zenn で連載。AWS・Databricks・Snowflake の認定資格もこの期間に取得しています。',
     tags: ['Snowflake', 'AWS', 'AI × メタデータ管理', 'ITコンサル'],
+  },
+  {
+    period: '2026.10 –',
+    title: 'AIスタートアップへ。PM／PMO としてプロダクトの推進役に',
+    org: 'AIスタートアップ',
+    description:
+      'AI プロダクトの開発を PM／PMO として推進しています。要件の整理から進行管理、関係者間の調整までを担当。データ基盤とコンサルティングの両方を経験してきたぶん、技術側の事情と事業側の都合の両方を踏まえて判断できるのが強みです。',
+    tags: ['PM / PMO', 'AI プロダクト', '要件整理', '進行管理'],
   },
   {
     period: '2026 –',
@@ -53,7 +61,7 @@ export const CAREER: CareerItem[] = [
 /** About ページの補足プロフィール（仕事側） */
 export const PROFILE_FACTS = [
   { label: '拠点', value: '宮城県仙台市（リモート対応可）' },
-  { label: '現職', value: '外資系コンサルティングファーム ITコンサルタント（データエンジニアリング）' },
+  { label: '現職', value: 'AIスタートアップ PM／PMO' },
   { label: '稼働形態', value: '業務委託 / 準委任・請負' },
 ]
 
