@@ -50,7 +50,8 @@ export const SITE = {
    */
   availability: {
     status: 'limited' as 'open' | 'limited' | 'closed',
-    label: '2026年9月〜 受託枠 残1',
+    /** 常に確保しておく空き枠の数。表示は「残◯」になる */
+    slots: 1,
     note: '小規模な改修・スポット相談・チラシ1枚からの制作は随時受付中',
   },
   /**
@@ -85,4 +86,15 @@ export function currentAge(now = new Date()): number {
   const m = now.getMonth() + 1
   if (m < birthMonth || (m === birthMonth && now.getDate() < birthDay)) age--
   return age
+}
+
+/**
+ * 受注の空き状況の文言。
+ * 「来月から受け付けている」形を常に保つため、固定文字列ではなく日付から組み立てる。
+ * 静的書き出しなのでビルド時刻で固まってしまうが、AvailabilityBadge 側で
+ * 閲覧時点の日付でも計算し直しているため、毎月の書き換えは不要。
+ */
+export function availabilityLabel(now: Date = new Date()): string {
+  const next = new Date(now.getFullYear(), now.getMonth() + 1, 1)
+  return `${next.getFullYear()}年${next.getMonth() + 1}月〜 受託枠 残${SITE.availability.slots}`
 }
